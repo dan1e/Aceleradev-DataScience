@@ -1,0 +1,28 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.6, pytest-4.6.2, py-1.8.0, pluggy-0.12.0 -- C:\Users\Guto\anaconda3\python.exe
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase('C:\\Users\\Guto\\codenation\\data-science-3\\.hypothesis\\examples')
+rootdir: C:\Users\Guto\codenation\data-science-3
+plugins: hypothesis-4.36.2, arraydiff-0.3, astropy-header-0.1.2, doctestplus-0.5.0, openfiles-0.4.0, remotedata-0.3.2
+collecting ... collected 4 items
+
+test_submit.py::test_q1 PASSED                                           [ 25%]
+test_submit.py::test_q2 PASSED                                           [ 50%]
+test_submit.py::test_q3 PASSED                                           [ 75%]
+test_submit.py::test_q4 PASSED                                           [100%]
+
+============================== warnings summary ===============================
+C:\Users\Guto\anaconda3\lib\site-packages\ipywidgets\widgets\widget_selection.py:9
+C:\Users\Guto\anaconda3\lib\site-packages\ipywidgets\widgets\widget_selection.py:9
+  C:\Users\Guto\anaconda3\lib\site-packages\ipywidgets\widgets\widget_selection.py:9: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+    from collections import Mapping, Iterable
+
+C:\Users\Guto\anaconda3\lib\site-packages\seaborn\matrix.py:268
+C:\Users\Guto\anaconda3\lib\site-packages\seaborn\matrix.py:268
+  C:\Users\Guto\anaconda3\lib\site-packages\seaborn\matrix.py:268: PendingDeprecationWarning: 
+  The label function will be deprecated in a future version. Use Tick.label1 instead.
+    fontsize = tick.label.get_size()
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+--- generated xml file: C:\Users\Guto\codenation\data-science-3\output.xml ----
+==================== 4 passed, 4 warnings in 3.46 seconds =====================
